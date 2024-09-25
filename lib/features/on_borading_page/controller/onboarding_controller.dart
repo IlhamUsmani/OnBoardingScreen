@@ -21,8 +21,8 @@ class OnBoardingController extends GetxController {
     } else {
       shouldResetAnimation = false;
       Get.snackbar(
-        'End of Onboarding',
-        'You have completed the onboarding process.',
+        snackHeading,
+        snackText,
         snackPosition: SnackPosition.BOTTOM,
         duration: const Duration(seconds: 2),
       );

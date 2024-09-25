@@ -10,3 +10,5 @@ const String next = 'Next';
 const splashScreenHeading = 'Drops Water Tracker';
 const String splashScreenText =
     'Stay hydrated and track your daily water intake';
+const snackHeading = 'End of Onboarding';
+const snackText = 'You have completed the onboarding process.';
